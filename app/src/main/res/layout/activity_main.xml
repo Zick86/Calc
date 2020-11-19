@@ -6,6 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#DFD7D7"
         tools:context=".MainActivity">
 
         <EditText
@@ -24,9 +25,11 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
+            android:hint="Ввод значения"
             android:inputType="textPersonName|numberDecimal"
             android:lines="2"
             android:maxLines="2"
+            android:textColor="@color/black"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -53,8 +56,8 @@
                     android:layout_height="80dp"
                     android:layout_margin="10dp"
                     android:background="#DFBD8A"
-                    android:text="Clear"
-                    android:textSize="25sp" />
+                    android:text="Del"
+                    android:textSize="15sp" />
 
             </TableRow>
 
